@@ -42,6 +42,7 @@ gcd(30, 20)
 
 print(math.gcd(30, 20))
 
+
 # Повернення значення з функції
 def func(number):
     number * 2
