@@ -41,7 +41,7 @@ number = int(input("Enter your number: "))
 while number >= 0:
 
     if number == 3:
-        nember -= 1
+        number -= 1
         continue
 
     print (number)
