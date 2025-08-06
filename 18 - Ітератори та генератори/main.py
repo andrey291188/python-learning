@@ -63,7 +63,6 @@ for i_num in cubes_gen:
     print(i_num, end=' ')
     
 # Аннотациї типів
-
 class Person:
     def __init__(self, name: str, age: int, friend: list) -> None: # Опис типів даних які приймає та повертає функція
         self.__name = name
@@ -80,3 +79,4 @@ class Person:
         
     def get_age(self) -> int:
         return self.__age
+    
